@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Converter functions
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.584 s - in Converter functions

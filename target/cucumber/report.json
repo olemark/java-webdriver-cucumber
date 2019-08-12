@@ -1,0 +1,382 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3881789193,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioStart()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Validate Farenheit to Celsius",
+        "description": "",
+        "id": "converter-functions;validate-farenheit-to-celsius;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 176232155,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioEnd(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3143799126,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I go to \"converter\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "converter",
+                  "offset": 9
+                }
+              ],
+              "location": "WebDriverStepDefs.iGoToPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 377381478,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on \"Temperature\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Temperature",
+                  "offset": 12
+                }
+              ],
+              "location": "ConverterStepdefs.iClickOn(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 335938075,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I set \"Fahrenheit\" to \"Celsius\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fahrenheit",
+                  "offset": 7
+                },
+                {
+                  "val": "Celsius",
+                  "offset": 23
+                }
+              ],
+              "location": "ConverterStepdefs.iSetTo(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 348338400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter into From field \"54\" and verify \"12.2\" result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "54",
+                  "offset": 25
+                },
+                {
+                  "val": "12.2",
+                  "offset": 41
+                }
+              ],
+              "location": "ConverterStepdefs.iEnterIntoFromFieldAndVerifyResult(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@converter"
+          },
+          {
+            "name": "@converter1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2164424837,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioStart()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validate Farenheit to Celsius",
+        "description": "",
+        "id": "converter-functions;validate-farenheit-to-celsius;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 214130627,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioEnd(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5127315926,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I go to \"converter\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "converter",
+                  "offset": 9
+                }
+              ],
+              "location": "WebDriverStepDefs.iGoToPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 215950781,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on \"Weight\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Weight",
+                  "offset": 12
+                }
+              ],
+              "location": "ConverterStepdefs.iClickOn(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 367743231,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I set \"Pound\" to \"Kilogram\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pound",
+                  "offset": 7
+                },
+                {
+                  "val": "Kilogram",
+                  "offset": 18
+                }
+              ],
+              "location": "ConverterStepdefs.iSetTo(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 363439198,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter into From field \"170\" and verify \"77\" result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "170",
+                  "offset": 25
+                },
+                {
+                  "val": "77",
+                  "offset": 42
+                }
+              ],
+              "location": "ConverterStepdefs.iEnterIntoFromFieldAndVerifyResult(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@converter"
+          },
+          {
+            "name": "@converter1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2326017129,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioStart()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Validate Farenheit to Celsius",
+        "description": "",
+        "id": "converter-functions;validate-farenheit-to-celsius;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 195175414,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioEnd(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2354439203,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I go to \"converter\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "converter",
+                  "offset": 9
+                }
+              ],
+              "location": "WebDriverStepDefs.iGoToPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 244503933,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on \"Length\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Length",
+                  "offset": 12
+                }
+              ],
+              "location": "ConverterStepdefs.iClickOn(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 256494971,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I set \"Mile\" to \"Kilometer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mile",
+                  "offset": 7
+                },
+                {
+                  "val": "Kilometer",
+                  "offset": 17
+                }
+              ],
+              "location": "ConverterStepdefs.iSetTo(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 303093491,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter into From field \"50\" and verify \"80.4\" result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 25
+                },
+                {
+                  "val": "80.4",
+                  "offset": 41
+                }
+              ],
+              "location": "ConverterStepdefs.iEnterIntoFromFieldAndVerifyResult(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@converter"
+          },
+          {
+            "name": "@converter1"
+          }
+        ]
+      }
+    ],
+    "name": "Converter functions",
+    "description": "",
+    "id": "converter-functions",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/converter.feature",
+    "tags": [
+      {
+        "name": "@converter",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
